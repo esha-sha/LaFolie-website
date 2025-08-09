@@ -1,0 +1,307 @@
+/* styles.css */
+@font-face {
+  font-family: 'Arizona';
+  src: url('arizona.woff2') format('woff2'),
+       url('arizona.woff') format('woff'),
+       url('arizona.ttf') format('truetype');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 2px;
+    background: url('flavsumm.jpg');
+    background-size: cover;
+    background-position:inherit;
+          
+  }
+
+  .navbar{
+    height:"78px";
+  }
+
+  .navbar-icon{
+    position: relative;
+  }
+
+  header {
+    background-color: #e58282;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .home{
+    width: 100%;
+    margin-top: 90PX;
+  }
+
+ 
+
+  .inourb {
+    display: flex;
+    align-items: center;
+    padding: 12PX;
+    margin-bottom: 100PX;
+  }
+  
+  
+  .imagehai {
+    width: 30%; /* adjust the width to your liking */
+    margin: 10px;
+  }
+  
+  .imagehai img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .texttt {
+    flex: 1;
+    padding: 20px;
+  }
+
+
+
+
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    display: flex;
+    justify-content:space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+
+/* Style the icon */
+#la-folie-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Style the dropdown menu container */
+.dropdown-menu {
+  position: absolute;
+  top: 30px; /* adjust the top position to match your icon's height */
+  left: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none; /* hide the menu by default */
+  width: 150px; /* set a fixed width for the menu */
+}
+
+/* Style the dropdown menu items using Flexbox */
+.dropdown-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* enable Flexbox */
+  flex-direction: column; /* set the direction to column */
+}
+
+.dropdown-menu li {
+  padding: 20px; /* add some padding to each item */
+  border: #000000;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-menu a:hover {
+  color: #666;
+}
+
+
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0%;
+  }
+  
+  .vid{
+    padding-top: 0%;
+    margin-top: 0%;
+  }
+
+/* Style the header message section */
+.header-message {
+  background-color: #0f2768; 
+  padding: 10px;
+  text-align: center;
+  border-bottom: 0px solid #ccc; /* Bottom border */
+  position: fixed; /* Fix the header message to the top of the page */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 1px;
+  font-size: 19px;
+  font-weight: bold;
+  z-index: 1000; /* Ensure the header message is on top of other elements */
+  height: 37px; 
+  color: #e9aacd; 
+}
+
+
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+
+.image {
+  width: 100%;
+  height: 550px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1500;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  width: 90%; /* Ensure the text doesn't overflow the image */
+}
+
+.heading {
+
+  font-weight: bold;
+  margin: 0;
+  font-size: 50px;
+  padding-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text-overlay p {
+  font-size: 30px;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+  section {
+    background-color:#ffffff;
+    padding: 20px;
+    margin-bottom: 100px;
+    margin-top: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  #form-container {
+    display: none; /* hide the form container */
+    position: absolute; /* position the form container absolutely */
+    top: 100%; /* center the form container vertically */
+    left: 0%; /* center the form container horizontally */
+    transform: translate(-50%, -50%); /* adjust the position */
+    background-color: #fff; /* add a background color */
+    padding: 20px; /* add some padding */
+    border: 1px solid #ddd; /* add a border */
+    border-radius: 10px; /* add a border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a box shadow */
+  }
+
+
+  #user-icon{
+    position:relative;
+  }
+
+.grp1{
+    display:flex;
+    align-items: space-between;
+  }
+.group{
+  display:flex
+}
+
+.popimg{
+ position:fixed;
+ top: 10%;
+ left: 0%;
+ bottom: 0%;
+ right: 0%;
+ background: '#000';
+ z-index: 99999;
+ opacity: 100%;
+}
+.instas{
+  text-align: center;
+}
+
+.close{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 33px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #0f2768;
+    color: #faaecb;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  .footer {
+    size: 20px;
+    background-image: url('cc.jpg');
+    background-size: cover; /* Add this to scale the image to cover the entire footer */
+    color: #180b62;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .logo{
+    height: 100px;
+    cursor:pointer;
+  }
+
+  .navbar-icon i {
+    margin: 0 10px; /* add 10px margin to the left and right of each icon */
+  }
+  .DailyFlavours{
+    margin-top: 150px;
+width: 100%;
+  }

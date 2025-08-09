@@ -1,0 +1,96 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar{
+    height:"79px";
+  }
+  nav li {
+    margin-right: 20px;
+  }
+  
+  .header-message {
+    background-color: #0f2768; /* Light gray background */
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc; /* Bottom border */
+    position: fixed; /* Fix the header message to the top of the page */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 3px;
+    font-size: 19px;
+    font-weight: bold;
+    z-index: 1000; /* Ensure the header message is on top of other elements */
+    height: 30px; /* Adjust the height to fit your layout */
+    font-size: 16px; /* Adjust the font size to fit your layout */
+    color: #e9aacd; /* Adjust the font color to fit your layout */
+  }
+
+  nav a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+ 
+
+  header {
+    background-color:#172e6f;
+    padding: 0px;
+    text-align: center;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  }
+  
+  nav a:hover {
+    color: #4CAF50;
+  }
+  body{
+    background-color: bisque;
+  }
+  .hero {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .header{
+    background-image: url("bgcg.jpg");
+  }
+  
+  .hero h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    margin-bottom: 20px;
+  }
+  
+  .hero a.btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }

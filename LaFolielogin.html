@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" type="text/css" href="lafolielogin.css"> <!-- Link to CSS -->
+</head>
+<body>
+  <div class="login">
+    <form id="login" method="post" action="login.php">
+      <label><b>Name</b></label>
+      <input type="text" name="Uname" id="Uname" placeholder="Username">
+      <br>
+      <label><b>Password</b></label>
+      <input type="password" name="Pass" id="Pass" placeholder="Password">
+      <br>
+      <label><b>Email</b></label>
+      <input type="email" name="Email" id="Email" placeholder="Email">
+      <br>
+      <label><b>Phone Number</b></label>
+      <input type="text" name="Phone" id="PhoneNum" placeholder="Phone">
+      <br><br>
+      <input type="submit" name="log" id="login-btn" value="Login">
+      <br><br>
+      <a href="#">Forgot Password</a>
+    </form>
+  </div>
+
+  <script src="loginscript.js"></script> <!-- Link to external JS file -->
+</body>
+</html>
+
+
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+  <link rel="stylesheet" type="text/css" href="lafolielogin.css">
+</head>
+<body>
+  <div class="login">
+    <form id="login" method="get" action="login.php">
+      <label><b>Name</b></label>
+      <input type="text" name="Uname" id="Uname" placeholder="Username">
+      <br>
+      <label><b>Password</b></label>
+      <input type="password" name="Pass" id="Pass" placeholder="Password">
+      <br>
+      <label><b>Email</b></label>
+      <input type="email" name="Email" id="Email" placeholder="Email">
+      <br>
+      <label><b>Phone Number</b></label>
+      <input type="phone" name="Phone" id="PhoneNum" placeholder="Phone">
+      <br><br>
+      <input type="button" name="log" id="login " value="Login">
+      <br><br>
+      <a href="#">Forgot Password</a>
+  </div>
+</form>
+<script src="loginscript.js"></script>
+</body>
+</html>
+

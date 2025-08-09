@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+ font-family: Arial, sans-serif;
+}
+
+header {
+ background-color: #4CAF50;
+ color: white;
+ padding: 1rem;
+ text-align: center;
+}
+
+h1 {
+ margin: 0;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image {
+    width: 30%; /* adjust the width to your liking */
+    margin: 10px;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 20px;
+  }
+main {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin: 2rem;
+}
+
+section {
+ flex-basis: 31%;
+ margin-bottom: 2rem;
+}
+
+section h2 {
+ border-bottom: 1px solid #ddd;
+ padding-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+ section {
+ flex-basis: 100%;
+ }
+}
+
+

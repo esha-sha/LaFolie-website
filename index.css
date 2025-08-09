@@ -1,0 +1,391 @@
+body {
+    /* font-family: Arial, sans-serif;
+    background-color: #f4f4f4; */
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ################### BLOG ######################### */
+
+.blog-section {
+    /* max-width: 1200px; */
+    max-width: 1400px;
+    
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+.blog-section h2 {
+    font-size: 2.3em;
+    margin-bottom: 10px;
+}
+
+.blog-section p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.blog-posts {
+    display: flex;
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: #333; */
+}
+
+.blog-post {
+    background: #fff;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+    margin: 20px;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    /* background-color: brown; */
+}
+
+.blog-post img {
+    max-width: 100%;
+    max-height: 150%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.post-date {
+    color: #888;
+    font-size: 0.9em;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.post-category {
+    display: inline-block;
+    /* margin-top: 10px; */
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    color: #fff;
+    /* margin-left: 60%; */
+    
+}
+
+.marketing {
+    background-color: #28a745;
+    margin-left: 60%;
+    
+}
+
+.automation {
+    background-color: #28a745;
+    margin-left: 56%;
+}
+
+.blog-post h3 {
+    font-size: 1.1em;
+    margin: 15px 0;
+    color: #333;
+    text-align: justify;
+}
+
+.blog-post p {
+    font-size: 1em;
+    color: #666;
+    text-align: justify;
+    text-decoration: none;
+}
+a{
+    text-decoration:none ;
+}
+a:hover{
+    text-decoration: underline;
+}
+.read-more {
+    /* display: inline-block; */
+    /* margin-top: 10%; */
+    font-size: 1.1em;
+    color: #28a745;
+    text-decoration: none;
+    margin-left: 80%;
+}
+
+.read-more:hover {
+   text-decoration: underline;
+}
+
+
+/* ############# FREQUENTLY ASKED QUESTIONS ############# */
+
+.faq-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    /* background: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  */
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+table {
+    /* width: 100%; */
+    border-collapse: collapse;
+    /* table-layout: fixed; */
+}
+
+table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table td { 
+    padding : 35px 75px;
+    /* vertical-align: top; */
+    /* text-align: left; */
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+table td:first-child {
+    width: 25%;
+    color: #333;
+    white-space: nowrap;
+}
+
+table td:last-child {
+    width: 75%;
+    color: #666;
+    white-space: pre-line;
+}
+
+
+/* ###### FOOTER ######## */
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.footer-logo img  {
+    max-width: 13%;
+    max-height: 13%;
+} 
+
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-bottom span {
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.footer-social a {
+    margin: 0 5px;
+}
+
+.footer-social img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 30px;
+}
+
+/* ########### FEATURES ########### */
+
+.features-section{
+    background-color: #44ca3f; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+  .container {
+    background-color: #44ca3f;
+    text-align: center;
+    width: 180vh;
+    /* margin-top: -20%; */
+
+
+  }
+  .container h1{
+    text-align: center;
+    color: white;
+    font-size: 7vh;
+    font-weight: 200;
+  }
+
+  .container h2{
+    text-align: center;
+    color: white;
+    font-size: 2.7vh;
+    font-weight: 200;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* margin-bottom: 20px; */
+    padding-right: 65%;
+   
+  }
+  
+  .text h1{
+    font-size: 1.3em;
+    color: white;
+    margin: 10px 0;
+    cursor: pointer;
+    text-align: left;
+    
+  }
+  .text-container button{
+    background-color: #44ca3f;
+    border-color: #44ca3f;
+  }
+
+  .text p{
+    font-size: 1.1em;
+    color: white;
+    margin: 10px 0;
+    cursor: pointer;
+    text-align: left;
+  }
+  .image-container {
+    display: flex;
+    /* position: relative; */
+    padding-left: 40%;
+    /* padding-top: -100%; */
+    margin-top: -30%;
+  }
+  
+  #displayedImage {
+    width: 900px;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 2vh 2vh;
+    
+    /* position: relative; */
+    /* margin-right: -10%;
+   margin-top: -50%; */
+  }
+
+
+
+
+/* ########### RESPONSIVE ######### */
+
+  @media (max-width: 768px) {
+    .blog-section {
+        padding: 10px;
+    }
+
+    .blog-post {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .post-category {
+        margin-left: 0;
+    }
+
+    .read-more {
+        margin-left: 0;
+    }
+
+    table td {
+        padding: 15px 25px;
+    }
+
+    .features-section {
+        height: auto;
+        padding: 20px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .text-container {
+        padding-right: 0;
+    }
+
+    .image-container {
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    #displayedImage {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-post h3 {
+        font-size: 1em;
+    }
+
+    .blog-post p {
+        font-size: 0.9em;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container h1 {
+        font-size: 4vh;
+    }
+
+    .container h2 {
+        font-size: 2vh;
+    }
+
+    .text h1 {
+        font-size: 1em;
+    }
+
+    .text p {
+        font-size: 0.8em;
+    }
+}
